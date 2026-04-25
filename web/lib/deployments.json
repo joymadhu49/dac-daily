@@ -1,0 +1,13 @@
+{
+  "chainId": 21894,
+  "network": "dacTestnet",
+  "contracts": {
+    "ActivityPoints": "0xa46f2868e60bA48C4C3a75448a253Cf7a772a50A",
+    "DailyCheckIn": "0xaDD1Be587b6D89d7d2acF4404013C59408f56316",
+    "DailyJam": "0xa58D00F67F244937332d2d7C19504AeF0981C7e6",
+    "DailyTasks": "0x9887BdAEaF415BB78AE3cCDc9Eb8D7b2bb33c6DF",
+    "DailyBadge": "0x2C17221497ab0Ff0E7Bf5Eb214f04cAD7D0666EB",
+    "SpinWheel": "0xd08946E87365b7F8DD2ce97D146A9854AED519E8",
+    "Leaderboard": "0xA95ECD5b817Fb9C041e387c69e697422B6827f19"
+  }
+}
