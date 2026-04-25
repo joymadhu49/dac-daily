@@ -23,10 +23,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {children}
             </main>
             <footer className="border-t-2 border-ink py-4">
-              <div className="mx-auto max-w-7xl px-4 sm:px-6 flex items-center justify-between text-[10px] uppercase tracking-sys font-mono text-ink/60">
+              <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-[10px] uppercase tracking-sys font-mono text-ink/60">
                 <span>DAC DAILY · v0.1.0</span>
                 <span>SYS://CHAIN.21894 · DACC</span>
-                <span>DAC LABS © 2026</span>
+                <span>
+                  BUILT BY{" "}
+                  <a
+                    href="https://x.com/zx_joy_"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-dac-red font-bold hover:underline"
+                  >
+                    @ZX_JOY_
+                  </a>
+                </span>
               </div>
             </footer>
           </div>
